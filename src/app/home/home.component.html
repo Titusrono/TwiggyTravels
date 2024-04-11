@@ -1,48 +1,105 @@
-<section class="bg-white dark:bg-gray-900">
-    <div class="container px-6 py-10 mx-auto">
-        <div class="text-center">
-            <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">From the blog</h1>
-
-            <p class="max-w-lg mx-auto mt-4 text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis sint autem nesciunt, laudantium
-                quia tempore delect
-            </p>
-        </div>
-
-        <div class="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
-            <div>
-                <img class="relative z-10 object-cover w-full rounded-md h-96" src="https://images.unsplash.com/photo-1644018335954-ab54c83e007f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
-
-                <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
-                    <a href="#" class="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
-                        All the features you want to know
-                    </a>
-
-                    <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis sint autem nesciunt,
-                        laudantium quia tempore delect
-                    </p>
-
-                    <p class="mt-3 text-sm text-blue-500">21 October 2019</p>
-                </div>
+<section>
+        <div id="carousel-twiggy" class="relative">
+          <div class="carousel-inner overflow-hidden">
+            <div class="carousel-item active duration-700 ease-in-out">
+              <img src="../assets/ezzimages/mom.jpg" class="block w-full h-auto animate-pulse" alt="..." />
+              <div class="carousel-caption absolute inset-0 flex justify-center items-center bg-gray-900 bg-opacity-50">
+                <h1 class="text-white text-3xl font-bold text-center">LET US EXPLORE</h1>
+              </div>
             </div>
-
-            <div>
-                <img class="relative z-10 object-cover w-full rounded-md h-96" src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
-
-                <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
-                    <a href="#" class="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
-                        How to use sticky note for problem solving
-                    </a>
-
-                    <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis sint autem nesciunt,
-                        laudantium quia tempore delect
-                    </p>
-
-                    <p class="mt-3 text-sm text-blue-500">20 October 2019</p>
-                </div>
+            <div class="carousel-item duration-700 ease-in-out">
+              <img src="../assets/ezzimages/carw.jpg" class="block w-full h-auto animate-pulse" alt="..." />
+              <div class="carousel-caption absolute inset-0 flex justify-center items-center bg-gray-900 bg-opacity-50">
+                <h1 class="text-white text-3xl font-bold text-center">LET US EXPLORE</h1>
+              </div>
             </div>
+            <div class="carousel-item duration-700 ease-in-out">
+              <img src="../assets/img/mara.jpg" class="block w-full h-auto animate-pulse" alt="..." />
+              <div class="carousel-caption absolute inset-0 flex justify-center items-center bg-gray-900 bg-opacity-50">
+                <h1 class="text-white text-3xl font-bold text-center">LET US EXPLORE</h1>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="carousel-control-prev absolute top-0 left-0 z-10 flex items-center justify-center p-3 hover:bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-white" data-slide="prev">
+            <span class="sr-only">Previous</span>
+            <svg class="h-6 w-6 text-white" aria-hidden="true" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 18l-6-6l6-6" />
+            </svg>
+          </button>
+          <button type="button" class="carousel-control-next absolute top-0 right-0 z-10 flex items-center justify-center p-3 hover:bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-white" data-slide="next">
+            <span class="sr-only">Next</span>
+            <svg class="h-6 w-6 text-white" aria-hidden="true" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l6 6-6 6" />
+            </svg>
+          </button>
         </div>
+      </section>
+      
+      <style>
+      .animate-pulse {
+        animation: pulse 2s infinite ease-in-out;
+      }
+      
+      @keyframes pulse {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.8;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      </style>      
+  <div class="container mt-4">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="rounded overflow-hidden shadow-sm">
+        <img src="../assets/img/coast.jpg" class="w-full h-48 object-cover" alt="Beach Front Hotel Diani">
+        <div class="px-6 py-4">
+          <h4 class="text-xl font-bold leading-tight text-gray-900">Beautiful Kenyan Coast</h4>
+          <h5 class="text-gray-700 text-base mt-1">About the trip</h5>
+          <ul class="list-disc pl-4 mt-3">
+            <li>Transport NBO- DIANI - NBO</li>
+            <li>Full board accommodation (breakfast, lunch, dinner)</li>
+            <li>Accommodation</li>
+            <li>Arrival and departure Airport transfers</li>
+            <li>Professional guide</li>
+          </ul>
+          <a href="#" class="inline-flex items-center px-4 py-2 rounded-full bg-blue-600 text-white font-bold mt-4">See holiday details</a>
+        </div>
+      </div>
+  
+      <div class="rounded overflow-hidden shadow-sm">
+        <img src="../assets/img/elepha.jpg" class="w-full h-48 object-cover" alt="Wild Maasai Mara">
+        <div class="px-6 py-4">
+          <h4 class="text-xl font-bold leading-tight text-gray-900">Wild Maasai Mara</h4>
+          <h5 class="text-gray-700 text-base mt-1">About the trip</h5>
+          <ul class="list-disc pl-4 mt-3">
+            <li>Professional Tour Guide</li>
+            <li>Transport NBO- Maasai Mara - NBO</li>
+            <li>Full board accommodation (breakfast, lunch, dinner)</li>
+            <li>Arrival and departure Airport transfers</li>
+          </ul>
+          <a href="#" class="inline-flex items-center px-4 py-2 rounded-full bg-blue-600 text-white font-bold mt-4">See holiday details</a>
+        </div>
+      </div>
+  
+      <div class="rounded overflow-hidden shadow-sm">
+        <img src="../assets/img/girr.png" class="w-full h-48 object-cover" alt="Scenic Kenya Safari">
+        <div class="px-6 py-4">
+          <h4 class="text-xl font-bold leading-tight text-gray-900">Scenic Kenya Safari</h4>
+          <h5 class="text-gray-700 text-base mt-1">About the trip</h5>
+          <ul class="list-disc pl-4 mt-3">
+            <li>Government statutory taxes</li>
+            <li>Transport in a Safari Land Cruiser</li>
+            <li>Full board accommodation (breakfast, lunch, dinner)</li>
+            <li>Arrival and departure Airport transfers</li>
+          </ul>
+          <a href="#" class="inline-flex items-center px-4 py-2 rounded-full bg-blue-600 text-white font-bold mt-4">See holiday details</a>
+        </div>
+      </div>
     </div>
-</section>
+    <section>
+  
+  
