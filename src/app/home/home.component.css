@@ -1,4 +1,11 @@
 #carousel-twiggy img {
     animation: pulse 2s infinite ease-in-out;
   }
+  .card-hover-slide-up {
+    transition: transform 0.3s ease;
+  }
+  
+  .card-hover-slide-up:hover {
+    transform: translateY(-10px);
+  }
   

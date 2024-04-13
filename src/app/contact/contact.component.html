@@ -1,46 +1,63 @@
 <div class="container mx-auto flex justify-center items-center h-screen">
-    <div class="w-full max-w-lg">
-      <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" (submit)="submitForm()">
-        <div class="mb-4">
-          <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
-            Name
-          </label>
-          <input
-            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="name" type="text" placeholder="Your Name" #nameInput required>
-        </div>
-        <div class="mb-4">
-          <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
-            Email
-          </label>
-          <input
-            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="email" type="email" placeholder="Your Email" #emailInput required>
-        </div>
-        <div class="mb-4">
-          <label class="block text-gray-700 text-sm font-bold mb-2" for="phone">
-            Phone Number
-          </label>
-          <input
-            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="phone" type="tel" placeholder="Your Phone Number" #phoneInput required>
-        </div>
-        <div class="mb-6">
-          <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
-            Message
-          </label>
-          <textarea
-            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="message" placeholder="Your Message" #messageInput required></textarea>
-        </div>
-        <div class="flex items-center justify-between">
-          <button
-            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-            type="submit">
-            Send
-          </button>
-        </div>
-      </form>
+  <div class="w-full max-w-lg">
+<form action="">
+  <div class="container-fluid upper-header bg-brown-500 text-white flex flex-col md:flex-row justify-between items-center">
+    <!-- Contact Information -->
+    <div class="contact-info">
+      <div class="bg-brown-500 shadow-md rounded p-4 mb-4 text-white">
+        <h2 class="text-xl font-bold mb-2">Contact Information</h2>
+        <p class="mb-0">
+          <a href="contact-info" class="no-underline block">Twiggy Travels, Let Us Explore.</a>
+          <a href="+254111280938" class="no-underline block">Tel: +254111280938</a>
+          <a href="info@twiggytravels.com" class="no-underline block">email.info.com</a>
+        </p>
+      </div>
     </div>
+    
+    
+ 
   </div>
-  
+</form>
+    <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+          Name
+        </label>
+        <input
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          id="name" type="text" placeholder="Your Name" required>
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+          Email
+        </label>
+        <input
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          id="email" type="email" placeholder="Your Email" required>
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="phone">
+          Phone Number
+        </label>
+        <input
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          id="phone" type="tel" placeholder="Your Phone Number" required>
+      </div>
+      <div class="mb-6">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+          Message
+        </label>
+        <textarea
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          id="message" placeholder="Your Message" required></textarea>
+      </div>
+      <div class="flex items-center justify-between">
+        <button
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          type="submit">
+          Send
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
