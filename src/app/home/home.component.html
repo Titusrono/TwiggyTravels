@@ -18,6 +18,11 @@
 </section>
 
 
+
+
+
+
+
 <main class="hero-section bg-gray-100 py-20" id="hero-section">
   <div class="container mx-auto">
     <div class="hero-section-content" data-aos="fade-up">
@@ -147,10 +152,9 @@
 
 
 
-
 <!-- COLOURED LINE -->
 <div class="colored-line-container">
-  <hr class="colored-line">
+  <hr class="colored-line hover:bg-blue-600">
 </div>
 
 <!-- Travel in December -->
@@ -165,7 +169,7 @@
 <!-- December Cards -->
 <div class="container mt-4 mx-auto">
   <!-- Main Card to enclose Popular Now Cards -->
-  <div class="rounded-lg overflow-hidden shadow-md borderborder-gray-800 border-white">
+  <div class="rounded-lg overflow-hidden shadow-md border border-gray-800 border-white">
     <!-- December Card 1 -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center">
       <!-- December Card 1 -->
@@ -201,7 +205,6 @@
     </div>
   </div>
 </div>
-
 
  <!-- "See More" button -->
  <div class="text-center mt-8">
@@ -241,8 +244,6 @@
 
 
 
-
-
 <main class="hero-section bg-gray-100 py-20" id="hero-section">
   <div class="container mx-auto text-center">
     <div class="hero-section-content" data-aos="fade-up">
@@ -256,7 +257,7 @@
   <div class="container mt-1">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center">
       <!-- Card 1: Greece -->
-      <div class="rounded-lg overflow-hidden shadow-md border border-gray-800 h-full card-hover-slide-up">
+      <div class="rounded-lg overflow-hidden shadow-md border border-gray-800 h-full transform hover:-translate-y-1 hover:shadow-lg transition duration-300">
         <img src="../assets/img/santorini.jpg" class="w-full h-100 object-cover" alt="Beach Front Hotel Diani">
         <div class="px-6 py-4">
           <h4 class="font-bold">Trips in 2023 Greece</h4>
@@ -264,7 +265,7 @@
         </div>
       </div>
       <!-- Card 2: Maldives -->
-      <div class="rounded-lg overflow-hidden shadow-md border border-gray-800 h-full card-hover-slide-up">
+      <div class="rounded-lg overflow-hidden shadow-md border border-gray-800 h-full transform hover:-translate-y-1 hover:shadow-lg transition duration-300">
         <img src="../assets/img/maldives.jpg" class="w-full h-100 object-cover" alt="Wild Maasai Mara">
         <div class="px-6 py-4">
           <h4 class="font-bold">Trips in 2023 Maldives</h4>
@@ -272,7 +273,7 @@
         </div>
       </div>
       <!-- Card 3: Coast Kenya -->
-      <div class="rounded-lg overflow-hidden shadow-md border border-gray-800 h-full card-hover-slide-up">
+      <div class="rounded-lg overflow-hidden shadow-md border border-gray-800 h-full transform hover:-translate-y-1 hover:shadow-lg transition duration-300">
         <img src="../assets/img/kdcoast.jpg" class="w-full h-100 object-cover" alt="Scenic Kenya Safari">
         <div class="px-6 py-4">
           <h4 class="font-bold">Trips in 2023 Coast Kenya</h4>
@@ -299,29 +300,38 @@
 
 
 <!-- Registration box -->
-<div class="container-register mt-5" style="background-image: url(https://a.storyblok.com/f/108167/1439x360/e2af723c9c/newsletter.jpg);">
-  <div class="registration-box mt-3">
-      <h2>Travel with Us Now</h2>
-      <hr>
-      <p>Subscribe to our newsletter for holiday inspiration and the latest special offers</p>
-      <!-- Form -->
-      <form id="myForm" onsubmit="return validateForm()">
-          <div class="form-group">
-              <label for="username">Username:</label>
-              <input type="text" id="username" name="username" required autocomplete="username">
-          </div>
-          <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required autocomplete="email">
-          </div>
-          <div class="form-group">
-              <label for="password">Password:</label>
-              <input type="password" id="password" name="password" required autocomplete="new-password">
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+<div class="container-register flex items-center justify-center p-4 mt-5 text-center bg-cover bg-center" style="background-image: url(https://a.storyblok.com/f/108167/1439x360/e2af723c9c/newsletter.jpg);">
+  <div class="registration-box mt-3 w-full max-w-2xl border border-gray-300 rounded-xl bg-white shadow-lg p-8">
+    <h2 class="mb-4 text-3xl font-bold text-gray-800">Travel with Us Now</h2>
+    <hr class="w-4/5 mx-auto border-t border-gray-300 mb-6">
+    <p class="mb-4 text-gray-700">Subscribe to our newsletter for holiday inspiration and the latest special offers</p>
+    <!-- Form -->
+    <form id="myForm" onsubmit="return validateForm()" class="text-left">
+      <div class="form-group mb-4 text-center">
+        <label for="username" class="font-semibold block mb-1 text-gray-800 text-lg font-bold">Username:</label>
+        <input type="text" id="username" name="username" required autocomplete="username" class="w-full md:w-4/5 border border-gray-300 rounded-md py-2 px-3 box-border focus:outline-none focus:border-blue-500">
+      </div>
+      <div class="form-group mb-4 text-center">
+        <label for="email" class="font-semibold block mb-1 text-gray-800 text-lg font-bold">Email:</label>
+        <input type="email" id="email" name="email" required autocomplete="email" class="w-full md:w-4/5 border border-gray-300 rounded-md py-2 px-3 box-border focus:outline-none focus:border-blue-500">
+      </div>
+      <div class="form-group mb-4 text-center">
+        <label for="password" class="font-semibold block mb-1 text-gray-800 text-lg font-bold">Password:</label>
+        <input type="password" id="password" name="password" required autocomplete="new-password" class="w-full md:w-4/5 border border-gray-300 rounded-md py-2 px-3 box-border focus:outline-none focus:border-blue-500">
+      </div>
+      <button type="submit" class="btn-primary bg-blue-500 hover:bg-blue-600 text-white border-none py-2 px-4 rounded-md cursor-pointer mb-6 mx-auto block">Submit</button>
+    </form>
   </div>
 </div>
+
+
+
+
+
+
+
+
+
 
 
   </section>
