@@ -1,12 +1,40 @@
-<header class="text-gray-400 bg-gray-900 body-font">
+<section>
+  <div class="container-fluid mx-auto px-0">
+    <div class="upper-header bg-orange-600 text-white py-2 flex justify-center items-center">
+      <div class="contact-info mx-5">
+        <p class="mb-0 flex items-center">
+          <a href="contact-info" class="text-white no-underline text-xl border-r-2 border-white pr-2 mr-4">Twiggy Travels, Let Us Explore.</a>
+          <a href="+254111280938" class="text-white-400 hover:text-blue-500 no-underline text-xl ml-4">Tel: +254111280938</a>
+          <a href="info@twiggytravels.com" class="text-white-400 hover:text-blue-500 no-underline text-xl ml-4">info&#64;twiggytravels.com</a>
+          <a href="https://www.instagram.com/twigytravel?igsh=YTFyNDZhb3R6cTRk" class="text-white-400 hover:text-black no-underline text-xl ml-4"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100087756217898&mibextid=LQQJ4d" class="text-white-400 hover:text-black no-underline text-xl ml-4"><i class="fab fa-facebook"></i></a>
+        </p>
+      </div>
+      <div class="contact-btn">
+        <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Contact</button>
+      </div>
+    </div>
+  </div>
+  
+
+ <header class="text-gray-900 bg-white body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page"  class="mr-5 hover:text-white">Home</a>
-        <a routerLink="/destination" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page" class="mr-5 hover:text-white">Destinations</a>
-        <a routerLink="/services" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page"  class="mr-5 hover:text-white">Services</a>
-        <a routerLink="/packages" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page"  class="mr-5 hover:text-white">Packages</a>
-        <a routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page"  class="mr-5 hover:text-white">Contact Us</a>
-        <a routerLink="/blog" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page"  class="mr-5 hover:text-white">Blogs</a>
+      <!-- Logo -->
+      <a href="#" class="navbar-brand flex items-center mr-10">
+        <img src="../assets/img/logo.png" alt="Twiggy Travels Logo" class="mr-4 h-32"> <!-- Increased logo size -->
+        <span class="logo-text"></span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-lg justify-start"> <!-- Changed justify-center to justify-start -->
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page" class="mr-5 hover:text-black text-xl">Home</a>
+        <a routerLink="/destination" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page" class="mr-5 hover:text-black text-xl">Destinations</a>
+        <a routerLink="/services" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page" class="mr-5 hover:text-black text-xl">Services</a>
+        <a routerLink="/packages" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page" class="mr-5 hover:text-black text-xl">Packages</a>
+        <a routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page" class="mr-5 hover:text-black text-xl">Contact Us</a>
+        <a routerLink="/blog" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page" class="mr-5 hover:text-black text-xl">Blogs</a>
       </nav>
     </div>
   </header>
+
+</section>
