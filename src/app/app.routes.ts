@@ -13,7 +13,7 @@ import { CitybreaksComponent } from './citybreaks/citybreaks.component';
 export const routes: Routes = [
     {'path':'', 'title':'Home', component:HomeComponent},
     {'path':'destination', 'title':'Destination',component:DestinationComponent},
-    {'path':'destination', children: [
+    {'path':'destination', children:[
         {'path':'beach', 'title':'destination | Beach', component:BeachComponent},
         {'path':'adventure', 'title':'destination | Adventure', component:AdventureComponent},
         {'path':'citybreaks','title':'destination | Citybreaks', component:CitybreaksComponent}
