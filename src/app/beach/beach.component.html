@@ -1,7 +1,93 @@
-<div class="container mx-auto px-4 py-8">
-    <h1 class="text-3xl font-bold mb-4">Beach Page</h1>
-    <p>This is the beach page content. Update this content to reflect information about beaches.</p>
+<div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 flex flex-col items-center justify-center">
+        <div class="text-center text-blue">
+            <h1 class="text-4xl md:text-5xl font-bold-blue mb-4">Beach</h1>
+            <p class="text-lg md:text-xl">This is the beach page content. Update this content to reflect information about beaches.</p>
+        </div>
+    </div>
+    
+    
+    <!-- Hero Section -->
+    <div class="relative">
+        <div class="h-screen bg-cover bg-center flex items-center justify-center text-white"
+            style="background-image: url('../assets/img/lamu.jpg');">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to Mombasa Beach</h1>
+                <p class="text-lg md:text-xl">Experience the beauty of the Kenyan coast</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Beach Details Section -->
+    <div class="container mx-auto py-12">
+        <div class="text-center mb-8" data-aos="fade-up">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Explore Mombasa Beach</h2>
+            <p class="text-lg">Discover the wonders of Mombasa's sandy shores and crystal-clear waters.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Beach Feature 1 -->
+            <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-1 transition duration-300 ease-in-out">
+                <h3 class="text-xl font-semibold mb-2">Sandy Beaches</h3>
+                <p class="text-gray-700">Enjoy long stretches of pristine sandy beaches along the Mombasa coastline,
+                    perfect for relaxation and sunbathing.</p>
+            </div>
+            <!-- Beach Feature 2 -->
+            <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-1 transition duration-300 ease-in-out">
+                <h3 class="text-xl font-semibold mb-2">Water Sports</h3>
+                <p class="text-gray-700">Experience thrilling water sports activities such as snorkeling, scuba diving,
+                    and jet skiing in the clear blue waters of the Indian Ocean.</p>
+            </div>
+            <!-- Beach Feature 3 -->
+            <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-1 transition duration-300 ease-in-out">
+                <h3 class="text-xl font-semibold mb-2">Local Cuisine</h3>
+                <p class="text-gray-700">Indulge in delicious coastal delicacies and fresh seafood dishes at
+                    waterfront restaurants and beachside cafes.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Gallery Section -->
+    <div class="container mx-auto py-12">
+        <div class="text-center mb-8" data-aos="fade-up">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Discover the Beauty</h2>
+            <p class="text-lg">Take a glimpse of the stunning scenery and vibrant atmosphere of Mombasa Beach.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Image 1 -->
+            <div class="rounded-lg overflow-hidden shadow-md hover:shadow-lg transform hover:-translate-y-1 transition duration-300 ease-in-out">
+                <img src="../assets/img/carw.jpg" alt="Mombasa Beach" class="w-full h-auto">
+                <div class="p-4 bg-white">
+                    <h3 class="text-xl font-semibold mb-2">Crystal Clear Waters</h3>
+                    <p class="text-gray-700">Experience the breathtaking beauty of Mombasa's crystal clear waters.</p>
+                </div>
+            </div>
+            <!-- Image 2 -->
+            <div class="rounded-lg overflow-hidden shadow-md hover:shadow-lg transform hover:-translate-y-1 transition duration-300 ease-in-out">
+                <img src="../assets/img/mom.jpg" alt="Mombasa Beach" class="w-full h-auto">
+                <div class="p-4 bg-white">
+                    <h3 class="text-xl font-semibold mb-2">Golden Sandy Beaches</h3>
+                    <p class="text-gray-700">Relax and unwind on the golden sandy beaches of Mombasa.</p>
+                </div>
+            </div>
+            <!-- Image 3 -->
+            <div class="rounded-lg overflow-hidden shadow-md hover:shadow-lg transform hover:-translate-y-1 transition duration-300 ease-in-out">
+                <img src="../assets/img/coast.jpg" alt="Mombasa Beach" class="w-full h-auto">
+                <div class="p-4 bg-white">
+                    <h3 class="text-xl font-semibold mb-2">Spectacular Sunsets</h3>
+                    <p class="text-gray-700">Witness breathtaking sunsets over the horizon at Mombasa Beach.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- AOS Library Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+<div class="flex justify-center items-center mt-6 gap-x-3">
+    <a href="/destination" class="mr-5 hover:text-black hover:bg-green-500 text-red-500 bg-blue-500 px-4 py-2 rounded-md transition duration-300 ease-in-out">BACK</a>
 </div>
-<div class="flex items-center mt-6 gap-x-3">
-    <a routerLink="/destination" routerLinkActive="active" class="mr-5 hover:text-white button-link">BACK</a>
 </div>
