@@ -1,1 +1,468 @@
-<p>blog works!</p>
+<style>
+    .image-container {
+        position: relative;
+        overflow: hidden;
+        border-radius: 1rem;
+    }
+
+    .image-container:hover img {
+        transform: scale(1.1);
+    }
+
+    .image-container img {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .header-text {
+        font-family: 'Arial', sans-serif; /* Change the font type */
+        color: rgb(241, 126, 32); /* Change the font color to yellow */
+        text-decoration: underline; /* Underline the header text */
+        text-align: center; /* Center the header text */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add a shadow to the header text */
+    }
+</style>
+
+<!-- Section 1 -->
+<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <h1 class="header-text text-2xl font-semibold capitalize lg:text-3xl dark:text-white">1. Safari Adventures in Kenya's National Parks:</h1>
+
+        <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
+            <div class="image-container w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96">
+                <img class="object-cover w-full h-full" src="../assets/img/girr.png" alt="">
+            </div>
+
+            <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
+                <p class="text-sm text-blue-500 uppercase">Author: Twiggy Travels Content Admin.</p>
+                <p class="text-sm text-blue-500 uppercase">Date: Wed Apr,2024</p>
+
+                <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                    Experience the thrill of wildlife encounters in Kenya's iconic national parks like Maasai Mara, Amboseli, Tsavo, Aberdare, and Samburu. From witnessing the majestic Big Five to observing unique species like cheetahs, giraffes, and wildebeests, each park offers a distinct safari experience. I'll delve into the best times of year for wildlife migrations and highlight lesser-known gems within these parks. Additionally, I'll provide insights on responsible safari practices, such as maintaining a safe distance from wildlife and supporting local conservation initiatives...
+                </p>
+
+                <a href="#" class="inline-block mt-2 text-blue-500 underline hover:text-blue-400">Read more</a>
+
+                <!-- Card Section -->
+                <div class="mt-6 bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
+                    <h2 class="text-lg font-semibold text-gray-800 dark:text-white">Plan Your Safari Adventure with Twiggy Travels</h2>
+                    <p class="text-sm text-gray-500 dark:text-gray-300 mt-2">Get in touch with our travel experts to customize your safari experience in Kenya. Whether it's a luxury safari, family-friendly adventure, or off-the-beaten-path exploration, we'll tailor your trip to create unforgettable memories.</p>
+                    <a href="#" class="inline-block mt-4 px-4 py-2 text-sm font-semibold text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Contact Us</a>
+                </div>
+                
+                <div class="flex items-center mt-6">
+                    <img class="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="">
+                    <div class="mx-4">
+                        <h1 class="text-sm text-gray-700 dark:text-gray-200">Twiggy Travels</h1>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">Luxury Travel Experts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<style>
+    .image-container {
+        position: relative;
+        overflow: hidden;
+        border-radius: 1rem;
+        flex-shrink: 0;
+    }
+
+    .image-container:hover img {
+        transform: scale(1.1);
+    }
+
+    .image-container img {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .header-text {
+        font-family: 'Arial', sans-serif;
+        color: rgb(241, 126, 32);
+        text-decoration: underline;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .content-wrapper {
+        display: flex;
+        flex-direction: row-reverse; /* Reverse the order of items */
+        justify-content: space-between;
+    }
+
+    .content-wrapper .content {
+        flex-grow: 1;
+        max-width: calc(50% - 1rem);
+    }
+</style>
+
+<style>
+    .image-container {
+        position: relative;
+        overflow: hidden;
+        border-radius: 1rem;
+        flex-shrink: 0;
+    }
+
+    .image-container:hover img {
+        transform: scale(1.1);
+    }
+
+    .image-container img {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .header-text {
+        font-family: 'Arial', sans-serif;
+        color: rgb(241, 126, 32);
+        text-decoration: underline;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .content-wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .content-wrapper .content {
+        flex-grow: 1;
+        max-width: calc(50% - 1rem);
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+        .content-wrapper {
+            flex-direction: column;
+        }
+
+        .image-container {
+            max-width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        .content-wrapper .content {
+            max-width: 100%;
+        }
+    }
+</style>
+
+<style>
+    .image-container {
+        position: relative;
+        overflow: hidden;
+        border-radius: 1rem;
+        flex-shrink: 0;
+        margin-right: 1rem; /* Add margin to the right for spacing */
+    }
+
+    .image-container:hover img {
+        transform: scale(1.1);
+    }
+
+    .image-container img {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .header-text {
+        font-family: 'Arial', sans-serif;
+        color: rgb(241, 126, 32);
+        text-decoration: underline;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .content-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start; /* Align items at the top */
+        flex-wrap: wrap; /* Enable wrapping for responsive layout */
+    }
+
+    .content-wrapper .content {
+        flex-grow: 1;
+        max-width: calc(50% - 1rem); /* Adjust max-width for responsiveness */
+        margin-bottom: 1rem; /* Add margin at the bottom for spacing */
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+        .content-wrapper .content {
+            max-width: 100%; /* Set maximum width to 100% for smaller screens */
+        }
+
+        .image-container {
+            max-width: 100%; /* Set maximum width to 100% for smaller screens */
+            margin-right: 0; /* Remove margin for smaller screens */
+            margin-bottom: 1rem; /* Add margin at the bottom for spacing */
+        }
+    }
+</style>
+
+<!-- Section 2 -->
+<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <h1 class="header-text text-2xl font-semibold capitalize lg:text-3xl dark:text-white">2. Exploring Kenya's Coastal Paradise: Mombasa and Diani Beach:</h1>
+
+        <div class="mt-8 lg:flex content-wrapper">
+            <div class="image-container w-full lg:w-1/2 rounded-xl h-72 lg:h-96">
+                <img class="object-cover w-full h-full" src="../assets/img/voy.jpg" alt="">
+            </div>
+
+            <div class="mt-6 lg:w-1/2 content">
+                <p class="text-sm text-blue-500 uppercase">Author: Twiggy Travels Content Admin.</p>
+                <p class="text-sm text-blue-500 uppercase">Date: Wed Apr,2024</p>
+
+                <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                    Immerse yourself in the cultural tapestry of Mombasa, where ancient history meets vibrant markets and delicious cuisine. Discover hidden gems in the old town, explore historic forts like Fort Jesus, and sample aromatic spices at local markets. Then, unwind on the sun-kissed shores of Diani Beach, known for its powdery white sands and azure waters. I'll share tips on beach activities, recommend seaside restaurants for seafood delights, and showcase the diverse marine life found in the coral reefs offshore.
+                </p>
+
+                <a href="#" class="inline-block mt-2 text-blue-500 underline hover:text-blue-400">Read more</a>
+
+                <!-- Card Section -->
+                <div class="mt-6 bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
+                    <h2 class="text-lg font-semibold text-gray-800 dark:text-white">Plan Your Safari Adventure with Twiggy Travels</h2>
+                    <p class="text-sm text-gray-500 dark:text-gray-300 mt-2">Get in touch with our travel experts to customize your safari experience in Kenya. Whether it's a luxury safari, family-friendly adventure, or off-the-beaten-path exploration, we'll tailor your trip to create unforgettable memories.</p>
+                    <a href="#" class="inline-block mt-4 px-4 py-2 text-sm font-semibold text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Contact Us</a>
+                </div>
+                
+                <div class="flex items-center mt-6">
+                    <img class="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="">
+                    <div class="mx-4">
+                        <h1 class="text-sm text-gray-700 dark:text-gray-200">Twiggy Travels</h1>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">Luxury Travel Experts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<style>
+    .image-container {
+        position: relative;
+        overflow: hidden;
+        border-radius: 1rem;
+        flex-shrink: 0;
+        margin-right: 1rem; /* Add margin to the right for spacing */
+    }
+
+    .image-container:hover img {
+        transform: scale(1.1);
+    }
+
+    .image-container img {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .header-text {
+        font-family: 'Arial', sans-serif;
+        color: rgb(241, 126, 32);
+        text-decoration: underline;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .content-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start; /* Align items at the top */
+        flex-wrap: wrap; /* Enable wrapping for responsive layout */
+    }
+
+    .content-wrapper .content {
+        flex-grow: 1;
+        max-width: calc(50% - 1rem); /* Adjust max-width for responsiveness */
+        margin-bottom: 1rem; /* Add margin at the bottom for spacing */
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+        .content-wrapper .content {
+            max-width: 100%; /* Set maximum width to 100% for smaller screens */
+        }
+
+        .image-container {
+            max-width: 100%; /* Set maximum width to 100% for smaller screens */
+            margin-right: 0; /* Remove margin for smaller screens */
+            margin-bottom: 1rem; /* Add margin at the bottom for spacing */
+        }
+    }
+</style>
+
+<!-- Section 3 -->
+<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <h1 class="header-text text-2xl font-semibold capitalize lg:text-3xl dark:text-white">3. Cultural Immersion with Kenya's Indigenous Tribes:
+        </h1>
+
+        <div class="mt-8 lg:flex content-wrapper">
+            <div class="image-container w-full lg:w-1/2 rounded-xl h-72 lg:h-96">
+                <img class="object-cover w-full h-full" src="../assets/img/maasai.jpg" alt="">
+            </div>
+
+            <div class="mt-6 lg:w-1/2 content">
+                <p class="text-sm text-blue-500 uppercase">Author: Twiggy Travels Content Admin.</p>
+                <p class="text-sm text-blue-500 uppercase">Date: Wed Apr,2024</p>
+
+                <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                    Journey into the heart of Kenya's rich cultural heritage by engaging with indigenous tribes such as the Maasai, Samburu, Turkana, Pokot, and Kikuyu. Learn about their traditional lifestyles, beliefs, and ceremonies through immersive cultural experiences. I'll provide insights on respectful interactions, ethical tourism practices, and opportunities for cultural exchange. Whether it's participating in a traditional dance, visiting a local village, or learning traditional craftsmanship, you'll gain a deeper understanding of Kenya's diverse indigenous cultures.
+                </p>
+
+                <a href="#" class="inline-block mt-2 text-blue-500 underline hover:text-blue-400">Read more</a>
+
+                <!-- Card Section -->
+                <div class="mt-6 bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
+                    <h2 class="text-lg font-semibold text-gray-800 dark:text-white">Plan Your Safari Adventure with Twiggy Travels</h2>
+                    <p class="text-sm text-gray-500 dark:text-gray-300 mt-2">Get in touch with our travel experts to customize your safari experience in Kenya. Whether it's a luxury safari, family-friendly adventure, or off-the-beaten-path exploration, we'll tailor your trip to create unforgettable memories.</p>
+                    <a href="#" class="inline-block mt-4 px-4 py-2 text-sm font-semibold text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Contact Us</a>
+                </div>
+                
+                <div class="flex items-center mt-6">
+                    <img class="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="">
+                    <div class="mx-4">
+                        <h1 class="text-sm text-gray-700 dark:text-gray-200">Twiggy Travels</h1>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">Luxury Travel Experts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Section 4 -->
+<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <h1 class="header-text text-2xl font-semibold capitalize lg:text-3xl dark:text-white">4. Hiking and Trekking Adventures in Mount Kenya:
+        </h1>
+
+        <div class="mt-8 lg:flex content-wrapper">
+            <div class="image-container w-full lg:w-1/2 rounded-xl h-72 lg:h-96">
+                <img class="object-cover w-full h-full" src="../assets/img/mtkenya.jpg" alt="">
+            </div>
+
+            <div class="mt-6 lg:w-1/2 content">
+                <p class="text-sm text-blue-500 uppercase">Author: Twiggy Travels Content Admin.</p>
+                <p class="text-sm text-blue-500 uppercase">Date: Mon Feb,2024</p>
+
+                <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                    Lace up your hiking boots and conquer the majestic peaks of Mount Kenya, Africa's second-highest mountain. Explore a range of trekking routes suited for varying skill levels, from scenic day hikes to challenging multi-day ascents. Along the way, discover the mountain's rich biodiversity, including rare flora like giant lobelias and unique wildlife such as colobus monkeys. I'll provide comprehensive trekking tips, safety precautions, and insights into the geological wonders of Mount Kenya's landscapes.
+                </p>
+
+                <a href="#" class="inline-block mt-2 text-blue-500 underline hover:text-blue-400">Read more</a>
+
+                <!-- Card Section -->
+                <div class="mt-6 bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
+                    <h2 class="text-lg font-semibold text-gray-800 dark:text-white">Plan Your Safari Adventure with Twiggy Travels</h2>
+                    <p class="text-sm text-gray-500 dark:text-gray-300 mt-2">Get in touch with our travel experts to customize your safari experience in Kenya. Whether it's a luxury safari, family-friendly adventure, or off-the-beaten-path exploration, we'll tailor your trip to create unforgettable memories.</p>
+                    <a href="#" class="inline-block mt-4 px-4 py-2 text-sm font-semibold text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Contact Us</a>
+                </div>
+                
+                <div class="flex items-center mt-6">
+                    <img class="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="">
+                    <div class="mx-4">
+                        <h1 class="text-sm text-gray-700 dark:text-gray-200">Twiggy Travels</h1>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">Luxury Travel Experts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Section 5 -->
+<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <h1 class="header-text text-2xl font-semibold capitalize lg:text-3xl dark:text-white">5. Luxury Safari Lodges and Eco-Friendly Accommodations:
+        </h1>
+
+        <div class="mt-8 lg:flex content-wrapper">
+            <div class="image-container w-full lg:w-1/2 rounded-xl h-72 lg:h-96">
+                <img class="object-cover w-full h-full" src="../assets/img/lodge.jpg" alt="">
+            </div>
+
+            <div class="mt-6 lg:w-1/2 content">
+                <p class="text-sm text-blue-500 uppercase">Author: Twiggy Travels Content Admin.</p>
+                <p class="text-sm text-blue-500 uppercase">Date: Mon Feb,2024</p>
+
+                <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                    Indulge in luxury safari experiences while minimizing your environmental footprint with a curated selection of eco-friendly lodges and camps. From tented camps nestled in wildlife-rich conservancies to lodges powered by renewable energy, I'll showcase accommodations that prioritize sustainability without compromising on comfort or luxury. Explore exclusive safari experiences, from guided game drives to cultural interactions, spa treatments, and gourmet dining using locally sourced ingredients. Gain insights into eco-certifications, conservation initiatives, and responsible tourism practices that align with your values as a conscious traveler.
+                </p>
+
+                <a href="#" class="inline-block mt-2 text-blue-500 underline hover:text-blue-400">Read more</a>
+
+                <!-- Card Section -->
+                <div class="mt-6 bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
+                    <h2 class="text-lg font-semibold text-gray-800 dark:text-white">Plan Your Safari Adventure with Twiggy Travels</h2>
+                    <p class="text-sm text-gray-500 dark:text-gray-300 mt-2">Get in touch with our travel experts to customize your safari experience in Kenya. Whether it's a luxury safari, family-friendly adventure, or off-the-beaten-path exploration, we'll tailor your trip to create unforgettable memories.</p>
+                    <a href="#" class="inline-block mt-4 px-4 py-2 text-sm font-semibold text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Contact Us</a>
+                </div>
+                
+                <div class="flex items-center mt-6">
+                    <img class="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="">
+                    <div class="mx-4">
+                        <h1 class="text-sm text-gray-700 dark:text-gray-200">Twiggy Travels</h1>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">Luxury Travel Experts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Section 6 -->
+<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <h1 class="header-text text-2xl font-semibold capitalize lg:text-3xl dark:text-white">6. Kenyan Arts and Crafts: Traditional Handicrafts and Markets:
+
+        </h1>
+
+        <div class="mt-8 lg:flex content-wrapper">
+            <div class="image-container w-full lg:w-1/2 rounded-xl h-72 lg:h-96">
+                <img class="object-cover w-full h-full" src="../assets/img/masaima.jpg" alt="">
+            </div>
+
+            <div class="mt-6 lg:w-1/2 content">
+                <p class="text-sm text-blue-500 uppercase">Author: Twiggy Travels Content Admin.</p>
+                <p class="text-sm text-blue-500 uppercase">Date: Fri Jan,2024</p>
+
+                <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                    Dive into Kenya's vibrant arts and crafts scene, where traditional handicrafts reflect the country's rich cultural diversity. Explore bustling markets brimming with Maasai beadwork, intricate wood carvings, colorful textiles, and handcrafted pottery. Meet local artisans, learn about their craftsmanship techniques, and shop for unique souvenirs that support local communities. I'll showcase must-visit markets, artisan workshops, and cultural experiences that celebrate Kenya's artistic heritage.
+                </p>
+
+                <a href="#" class="inline-block mt-2 text-blue-500 underline hover:text-blue-400">Read more</a>
+
+                <!-- Card Section -->
+                <div class="mt-6 bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
+                    <h2 class="text-lg font-semibold text-gray-800 dark:text-white">Plan Your Safari Adventure with Twiggy Travels</h2>
+                    <p class="text-sm text-gray-500 dark:text-gray-300 mt-2">Get in touch with our travel experts to customize your safari experience in Kenya. Whether it's a luxury safari, family-friendly adventure, or off-the-beaten-path exploration, we'll tailor your trip to create unforgettable memories.</p>
+                    <a href="#" class="inline-block mt-4 px-4 py-2 text-sm font-semibold text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Contact Us</a>
+                </div>
+                
+                <div class="flex items-center mt-6">
+                    <img class="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="">
+                    <div class="mx-4">
+                        <h1 class="text-sm text-gray-700 dark:text-gray-200">Twiggy Travels</h1>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">Luxury Travel Experts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
